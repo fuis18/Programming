@@ -5,7 +5,7 @@
   --border-light: #889ed9;
   --text: #e2e8f0;
   --text-muted: #8ba1c1;
-  --text-dim: #94a3b8;
+  --text-dim: #a4b3c8;
   --accent: #38bdf8;
 }
 
@@ -66,7 +66,7 @@ main h2 { font-size: 18px; border-bottom: 1px solid var(--border); padding-botto
 main h3 { font-size: 15px; color: var(--accent); }
 
 main p {
-  font-size: 14.5px;
+  font-size: 16px;
   line-height: 1.7;
   color: var(--text-dim);
   margin-bottom: 14px;
