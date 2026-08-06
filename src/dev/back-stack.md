@@ -85,5 +85,5 @@ Orden por rendimiento crudo: Actix-web > Axum > Fastify > Spring Boot > FastAPI 
 - Casos típicos: middleware en CDN, auth en el borde, APIs desplegadas en Workers.
 
 ## Ver también
-- [back-technologies](/dev/back-technologies/) — cómo se comunican estos servicios entre sí (REST/GraphQL/gRPC, mensajería, tiempo real).
-- [back-databases](/dev/back-databases/) — qué base de datos combinar con cada uno de estos stacks.
+- [back-technologies]({{ '/dev/back-technologies/' | url }}) — cómo se comunican estos servicios entre sí (REST/GraphQL/gRPC, mensajería, tiempo real).
+- [back-databases]({{ '/dev/back-databases/' | url }}) — qué base de datos combinar con cada uno de estos stacks.

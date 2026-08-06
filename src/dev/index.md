@@ -23,7 +23,7 @@ Testing, transversal a todo el stack: pruebas unitarias (Vitest/Jest), pruebas d
 
 El orden de aprendizaje en backend: frameworks, patrón MVC, bases de datos y ORMs, NestJS, autenticación y testing — como mapa general antes de entrar al detalle.
 
-### [back-stack](/dev/back-stack/)
+### [back-stack]({{ '/dev/back-stack/' | url }})
 
 Frameworks de backend y para qué sirve cada uno en la práctica: Actix-web para sistemas 24/7 de alta disponibilidad, Axum para microservicios, Fastify para APIs REST en JS/TS, Spring Boot para enterprise, FastAPI para servir modelos de IA, Django para CRUD con admin, y Hono para edge/serverless.
 
@@ -43,7 +43,7 @@ Frameworks para construir aplicaciones de escritorio: Tauri para apps web empaqu
 
 ## Frontend
 
-### [front-stack](/dev/front-stack/)
+### [front-stack]({{ '/dev/front-stack/' | url }})
 
 Las piezas con las que se arma un frontend: meta-frameworks según el objetivo del proyecto (Astro para sitios estáticos, React Router v7 e interactividad, TanStack Start para apps con mucho manejo de datos, Svelte por rendimiento, Next.js para SEO/e-commerce, Angular para proyectos enterprise/legacy), routers (React Router, Wouter, TanStack Router) y librerías de componentes de UI (shadcn/ui, radix/ui, Mantine, HeadlessUI, HeroUI).
 

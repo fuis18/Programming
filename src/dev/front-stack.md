@@ -114,6 +114,6 @@ Se elige por el objetivo del proyecto (¿estático?, ¿SEO?, ¿mucho manejo de d
 
 ## Ver también
 
-- [front-architecture](/dev/front-architecture/) — cómo organizar el proyecto por dominio (screaming architecture).
-- [front-libs](/dev/front-libs/) — librerías de apoyo (animaciones, estado, data fetching, forms, gráficos, 3D).
-- [front-icons](/dev/front-icons/) — catálogos de iconos y assets visuales.
+- [front-architecture]({{ '/dev/front-architecture/' | url }}) — cómo organizar el proyecto por dominio (screaming architecture).
+- [front-libs]({{ '/dev/front-libs/' | url }}) — librerías de apoyo (animaciones, estado, data fetching, forms, gráficos, 3D).
+- [front-icons]({{ '/dev/front-icons/' | url }}) — catálogos de iconos y assets visuales.
