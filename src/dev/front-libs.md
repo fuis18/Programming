@@ -11,8 +11,6 @@ Una vez resuelto el meta-framework, el router y la librería de componentes ([fr
 
 | Categoría        | Librería                | Uso                                                               |
 | ---------------- | ----------------------- | ----------------------------------------------------------------- |
-| Animaciones      | **Framer Motion**       | Animaciones declarativas para React, transiciones y gestos        |
-| Animaciones      | Tailwind Animations     |                                                                   |
 | Estado global    | **Zustand**             | Estado global simple, sin el boilerplate de Context/useReducer    |
 | Data fetching    | **Tanstack Query**      | Cache, invalidación, refetch y estado async de datos del servidor |
 | Tablas           | **Tanstack Table**      | Tablas headless: ordenamiento, filtrado y paginación              |
@@ -20,6 +18,7 @@ Una vez resuelto el meta-framework, el router y la librería de componentes ([fr
 | Formularios      | **RHF / TanStack Form** | Manejo de formularios, validación y estado de campos              |
 | Drag & drop      | **DnDKit**              | Interacciones de drag & drop accesibles                           |
 | Gráficos         | **Recharts**            | Visualización de datos y gráficos                                 |
+| actions history  | **travels**             | Funcionalidad de hacer & deshacer (undo/redo)                     |
 
 ### Cuándo usar Context vs. Zustand
 
@@ -36,15 +35,8 @@ Una vez resuelto el meta-framework, el router y la librería de componentes ([fr
 | **three.js**          | Librería JS              | Facilita trabajar con WebGL y 3D                   |
 | **React Three Fiber** | Framework sobre three.js | Usar three.js dentro de React de forma declarativa |
 
-## Utilidades puntuales
-
-| Librería    | Uso                                           |
-| ----------- | --------------------------------------------- |
-| **libpdf**  | CRUD de PDF                                   |
-| **travels** | Funcionalidad de hacer & deshacer (undo/redo) |
-
 ## Ver también
 
 - [front-stack]({{ '/dev/front-stack/' | url }}) — meta-frameworks, routers y librerías de componentes.
-- [front-architecture]({{ '/dev/front-architecture/' | url }}) — cómo organizar el proyecto por dominio.
+- [front-style]({{ '/dev/front-style/' | url }}) — librerías de estilo del lado CSS (Tailwind, animaciones, theming).
 - [front-icons]({{ '/dev/front-icons/' | url }}) — catálogos de iconos y assets visuales.

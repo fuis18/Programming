@@ -47,12 +47,18 @@ Frameworks para construir aplicaciones de escritorio: Tauri para apps web empaqu
 
 Las piezas con las que se arma un frontend: meta-frameworks según el objetivo del proyecto (Astro para sitios estáticos, React Router v7 e interactividad, TanStack Start para apps con mucho manejo de datos, Svelte por rendimiento, Next.js para SEO/e-commerce, Angular para proyectos enterprise/legacy), routers (React Router, Wouter, TanStack Router) y librerías de componentes de UI (shadcn/ui, radix/ui, Mantine, HeadlessUI, HeroUI).
 
-### front-style
+### [front-style]({{ '/dev/front-style/' | url }})
 
-### front-libs
+Con qué se estiliza la interfaz, del lado CSS: Tailwind CSS como utility-first, Tailwind Animation para animaciones, twekcn para theming de shadcn/ui, y patrones de CSS moderno (media queries para dark mode, orientación, fullscreen).
+
+### [front-libs]({{ '/dev/front-libs/' | url }})
 
 Librerías de apoyo para construir la interfaz: animaciones (Framer Motion), estado global (Zustand), data fetching (Tanstack Query), tablas y listas virtuales (Tanstack Table/Virtual), formularios (RHF/TanStack Form), drag & drop (DnDKit), gráficos (Recharts), animación 3D (three.js/React Three Fiber), y utilidades puntuales como libpdf y travels.
 
-### front-icons
+### [front-icons]({{ '/dev/front-icons/' | url }})
 
 Dónde sacar iconos y assets visuales: icones.js.org, iconify, tabler-icons, svgl, flaticon, dashboardicons, entre otros catálogos.
+
+### [front-utilities]({{ '/dev/front-utilities' | url }})
+
+Utilidades puntuales que no encajan en stack, estado o estilo: generar y editar PDF (libpdf), edición de video (Hyperframes, Remotion), crear diapositivas (Reveal.js) y generar documentación (Eleventy).

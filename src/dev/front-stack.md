@@ -100,20 +100,8 @@ Se elige por el objetivo del proyecto (¿estático?, ¿SEO?, ¿mucho manejo de d
 - Loaders y validación de parámetros integrados, con muy buena integración con TanStack Query — pensado para apps donde el ruteo está atado al estado de datos.
 - Elegilo en apps grandes y complejas que ya usan (o van a usar) el resto del ecosistema TanStack.
 
-## Component UI
-
-| Lib             | Qué es                                                                                                                      |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **shadcn/ui**   | No es una librería instalable: componentes copiables (Radix + Tailwind) que quedan en tu propio repo para editar libremente |
-| **radix/ui**    | Primitivos accesibles sin estilos — la base sobre la que se construyen shadcn/ui y otras librerías                          |
-| **Mantine.dev** | Librería de componentes completa y ya estilada, con muchos hooks utilitarios incluidos                                      |
-| **HeadlessUI**  | Componentes sin estilos (headless) del equipo de Tailwind, pensados para combinar con Tailwind CSS                          |
-| **HeroUI**      | Librería de componentes ya estilada (ex NextUI), pensada para prototipar rápido con buen look por defecto                   |
-
-**Cómo elegir:** si querés control total del estilo y no te molesta tener el código de los componentes en tu repo → **shadcn/ui** (sobre **radix/ui** si necesitás construir primitivos propios). Si preferís algo ya estilado y completo de fábrica → **Mantine** o **HeroUI**. Si trabajás con Tailwind y solo necesitás la lógica de accesibilidad sin ningún estilo → **HeadlessUI**.
-
 ## Ver también
 
-- [front-architecture]({{ '/dev/front-architecture/' | url }}) — cómo organizar el proyecto por dominio (screaming architecture).
+- [front-style]({{ '/dev/front-style/' | url }}) — librerías de estilo del lado CSS (Tailwind, animaciones, theming).
 - [front-libs]({{ '/dev/front-libs/' | url }}) — librerías de apoyo (animaciones, estado, data fetching, forms, gráficos, 3D).
 - [front-icons]({{ '/dev/front-icons/' | url }}) — catálogos de iconos y assets visuales.
