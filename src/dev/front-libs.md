@@ -5,8 +5,6 @@ title: Front Libs
 subtitle: Librerías de apoyo para construir la interfaz
 ---
 
-Una vez resuelto el meta-framework, el router y la librería de componentes ([front-stack]({{ '/dev/front-stack/' | url }})), estas son las librerías puntuales que resuelven un problema específico de la interfaz: animar, guardar estado, traer datos, armar tablas, formularios, drag & drop y gráficos.
-
 ## Librerías de apoyo
 
 | Categoría        | Librería                | Uso                                                               |

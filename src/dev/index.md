@@ -9,17 +9,21 @@ Desarrollo de software: cómo se construyen aplicaciones backend y frontend, qu�
 
 ## Library Universal
 
-### dev-auth
+### [dev-auth]({{ '/dev/dev-auth' | url }})
 
 Identidad y autenticación, transversal a backend y frontend: Keycloak como identity provider, los protocolos OIDC y OAuth2.0, tokens JWT, y Auth.js del lado frontend.
 
-### dev-testing
+### [dev-testing]({{ '/dev/dev-testing' | url }})
 
 Testing, transversal a todo el stack: pruebas unitarias (Vitest/Jest), pruebas de componentes e integración (Testing Library), end-to-end (Playwright), y automatización de navegador (Stagehand).
 
+### [front-utilities]({{ '/dev/front-utilities' | url }})
+
+Utilidades puntuales que no encajan en stack, estado o estilo: generar y editar PDF (libpdf), edición de video (Hyperframes, Remotion), crear diapositivas (Reveal.js) y generar documentación (Eleventy).
+
 ## Backend
 
-### back-architecture
+### [back-architecture]({{ '/dev/back-architecture' | url }})
 
 El orden de aprendizaje en backend: frameworks, patrón MVC, bases de datos y ORMs, NestJS, autenticación y testing — como mapa general antes de entrar al detalle.
 
@@ -27,17 +31,17 @@ El orden de aprendizaje en backend: frameworks, patrón MVC, bases de datos y OR
 
 Frameworks de backend y para qué sirve cada uno en la práctica: Actix-web para sistemas 24/7 de alta disponibilidad, Axum para microservicios, Fastify para APIs REST en JS/TS, Spring Boot para enterprise, FastAPI para servir modelos de IA, Django para CRUD con admin, y Hono para edge/serverless.
 
-### back-technologies
+### [back-technologies]({{ '/dev/back-technologies' | url }})
 
 Formas de comunicación entre servicios: APIs síncronas (REST, GraphQL, gRPC), mensajería asíncrona (RabbitMQ, Kafka, NATS, Redis Pub/Sub) y tiempo real (WebSocket, Server-Sent Events, Long Polling).
 
-### back-databases
+### [back-databases]({{ '/dev/back-databases' | url }})
 
 Bases de datos y cuándo usar cada una — SQLite, PostgreSQL, MongoDB, Cassandra, Redis, Neo4j, Qdrant — comparadas en ACID, JOINs, escalabilidad y disponibilidad, más los ORMs para trabajar con ellas (Prisma, TypeORM).
 
 ## Desktop
 
-### desk-stack
+### [desk-stack]({{ '/dev/desk-stack' | url }})
 
 Frameworks para construir aplicaciones de escritorio: Tauri para apps web empaquetadas, Ratatui para interfaces de terminal, GTK para apps grandes, Bevy para juegos, egui para utilidades rápidas.
 
@@ -58,7 +62,3 @@ Librerías de apoyo para construir la interfaz: animaciones (Framer Motion), est
 ### [front-icons]({{ '/dev/front-icons/' | url }})
 
 Dónde sacar iconos y assets visuales: icones.js.org, iconify, tabler-icons, svgl, flaticon, dashboardicons, entre otros catálogos.
-
-### [front-utilities]({{ '/dev/front-utilities' | url }})
-
-Utilidades puntuales que no encajan en stack, estado o estilo: generar y editar PDF (libpdf), edición de video (Hyperframes, Remotion), crear diapositivas (Reveal.js) y generar documentación (Eleventy).

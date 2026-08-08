@@ -5,8 +5,6 @@ title: Front Style
 subtitle: Con qué se estiliza la interfaz
 ---
 
-Mientras [front-libs]({{ '/dev/front-libs/' | url }}) cubre las librerías de JavaScript (estado, data fetching, tablas, formularios...), acá van las piezas del lado CSS: el framework de utilidades, sus plugins y el theming.
-
 ## Librerías de estilo
 
 | Librería               | Uso                                                                             |
@@ -66,8 +64,4 @@ Media queries de uso frecuente, sin depender de JS para detectarlas.
 - `orientation` — layout distinto según landscape/portrait (útil en mobile/tablet).
 - `display-mode: fullscreen` — estilos específicos cuando la app corre como PWA en fullscreen.
 
-## Ver también
-
-- [front-stack]({{ '/dev/front-stack' | url }}) — meta-frameworks, routers y librerías de componentes.
-- [front-libs]({{ '/dev/front-libs' | url }}) — librerías de JavaScript para construir la interfaz.
-- [front-icons]({{ '/dev/front-icons' | url }}) — catálogos de iconos y assets visuales.
+## Novedades

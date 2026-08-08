@@ -5,8 +5,6 @@ title: Back Architecture
 subtitle: El orden de aprendizaje en backend
 ---
 
-Mapa general antes de entrar al detalle: el orden en que tiene sentido aprender backend, de menor a mayor complejidad. Cada parada, salvo MVC y NestJS, tiene su propia página con el detalle.
-
 ## Roadmap
 
 1. Frameworks
@@ -15,6 +13,10 @@ Mapa general antes de entrar al detalle: el orden en que tiene sentido aprender 
 4. NestJS
 5. Auth (JWT, OAuth)
 6. Testing
+
+### 0. Conceptops
+
+Contruir un backned desde 0
 
 ### 1. Frameworks
 
@@ -41,6 +43,7 @@ Identidad y autenticación una vez que ya hay API y datos que proteger. Ver [dev
 Último escalón: cubrir con tests lo que ya se construyó. Ver [dev-testing](/dev/dev-testing/).
 
 ## Ver también
+
 - [back-stack](/dev/back-stack/) — frameworks de backend y para qué sirve cada uno.
 - [back-technologies](/dev/back-technologies/) — comunicación entre servicios (síncrona, asíncrona, real time).
 - [back-databases](/dev/back-databases/) — bases de datos y ORMs.
